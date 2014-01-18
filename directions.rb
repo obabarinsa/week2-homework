@@ -22,8 +22,8 @@ being = data["routes"][0]["legs"][0]["duration"]
 out = data["routes"][0]["legs"][0]["distance"]
 
 
-puts out
-puts being 
+# puts out
+# puts being 
 
 p1 = being.map{|mes| mes}
 p2 = out.map{|text| text}
